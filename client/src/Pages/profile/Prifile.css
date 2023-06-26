@@ -1,0 +1,218 @@
+
+.userProfile .userBanner{
+  width: 100%;
+  height: 240px;
+  background-color:  #f1f6fe;
+  padding-top: 100px;
+  position: relative;
+}
+.userProfile .userBanner .userPerson{
+  width: 170px;
+  height: 170px;
+  margin-left: 50px;
+  margin-top: 45px;
+  border-radius: 50%;
+  background-image: url('../../assets/arabboy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid white;
+  box-shadow: 0 0 10px #062b5b;
+}
+.userTexts{
+  right: 150px;  
+  width: 30%;
+  position: absolute;
+  bottom: 10px;  
+}
+.userName{
+  color: #062b5b;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+.userDesc{
+  color:#0f3a72;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+.listSkill{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px ;
+  margin-left: 400px;
+}
+.itemSkill{
+  width: 180px;
+  height: 80px;
+  border: none;
+  background-color: #f1f6fe;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.itemSkill span{
+  color:   #062b5b;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+.itemSkill p{
+  font-size: 37px;
+  color:  #062b5b;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+.abautMe{
+  width: 350px;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: -45px;
+}
+.abaut_title{
+  color: #062b5b;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abaut_desc{
+  margin-top: 20px;
+  color: #0f3a72;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 10px;
+}
+.edit{
+  width: 130px;
+  height: 35px;
+  border: none;
+  background-color: #42d12f;
+  color: white;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.exit{
+  background-color: red;
+  margin-left: 10px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 100px;
+}
+.btn_edit{
+  margin-left: 5px;
+  width: 17px;
+}
+
+.line_chart{
+  width: 600px !important;
+  height: 250px !important;
+  position: absolute;
+  right: 160px;
+  top: 420px;
+}
+.icons-ink{
+  margin-right: 7px;
+}
+.link-text{
+  color: #102fdb;
+  text-decoration: none;
+}
+
+.td-none{
+  text-decoration: none;
+  color: white;
+}
+.td-none:hover{
+  color: white !important;
+}
+@media(max-width: 1201px){
+  .line_chart{
+    width: 40% !important;
+    height: 200px !important;
+  }
+}
+
+@media(max-width:1000px){
+  .line_chart{
+    width: 30% !important;
+    height: 200px !important;
+    right: 30px;
+  }
+}
+
+
+/* ------------------------------------------------------------- */
+@media(max-width: 767px){
+  .userProfile .userBanner{
+    height: 190px;
+    padding-top: 90px;
+  }
+  .userProfile .userBanner .userPerson{
+    width: 115px;
+    height: 115px;
+    margin-top: 35px;
+  }
+  .userName{
+    font-size: 25px;
+  }
+  .line_chart{
+    width: 90% !important;
+    height: 500px !important;
+    position: static;
+    margin: 20px auto;
+  }
+  
+  .userTexts{
+    right: 0;  
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    bottom: 0; 
+    text-align: center; 
+    padding: 0 70px 0 70px;
+  }
+  .userName{
+    color: #062b5b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .userDesc{
+    color:#0f3a72;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+  }
+  .listSkill{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 0 !important;
+    margin-left: 0;
+  }
+  .itemSkill{
+    width: 120px;
+    height: 80px;
+    border: none;
+    background-color: #f1f6fe;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  .abautMe{
+    margin: 20px auto;    
+  }
+  
+}
